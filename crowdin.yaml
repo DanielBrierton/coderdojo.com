@@ -1,0 +1,10 @@
+api_key: <%= ENV['CROWDIN_API_KEY'] %>
+project_identifier: coderdojo-com
+base_path: .
+preserve_hierarchy: true
+
+files:
+  -
+    source: '/locales/en-US.json'
+    dest: '/strings.json'
+    translation: '/locales/%locale%.json'

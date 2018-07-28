@@ -12,3 +12,7 @@ dist
 
 # OS Files
 .DS_Store
+
+# Translations
+locales/*.json
+!locales/en-US.json
